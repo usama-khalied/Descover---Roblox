@@ -59,6 +59,13 @@ header .sign-login .log {
     header .sign-login {
        display: none;
     }
+    .swiper-slide .icon {
+       flex-direction: column;
+        
+    }
+    .swiper-button-next , .swiper-button-prev  {
+       display: none;
+    }
 }
 
 /* Sloder-1 start */
@@ -108,10 +115,13 @@ width: 10%;
     margin: 0 0.5rem 0;
 color: gray;    
 }
-.swiper-button-next , .swiper-button-prev , .swiper-button-prev3 {
+.swiper-button-next , .swiper-button-prev  {
     background-color: #DEE1E3;
     color: black;
     padding: 6rem 0;
+}
+.swiper-button-prev , .swiper-button-prev3 {
+    display: none;
 }
 .container-3 {
     margin: 10rem 0 0;
