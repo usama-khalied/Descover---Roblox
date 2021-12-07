@@ -123,6 +123,63 @@ color: gray;
 .swiper-button-prev , .swiper-button-prev3 {
     display: none;
 }
+/* --footer-section */
 
 
+/* --last-footer */
+.l-footer {
+    height: 20vh;
+    margin: 5rem 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l-footer nav ul {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.l-footer  nav ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin:0 3rem 0;
+}
+.l-footer nav p{ 
+font-size: 1.2rem;
+margin: 3rem 0;
+}
+@media (max-width:1024px){
+    .l-footer {
+  height: auto;
+}
+.l-footer nav ul {
+flex-direction: column;
+align-items: center;
+height:auto;
+border-bottom:none;
+
+}
+.l-footer nav ul li {
+    margin: 2rem 0 0;
+    border-bottom: 1px solid black;
+}
+.l-footer nav p{ 
+padding: 0 3rem 0;
+        }
+}
+.scrol-btn .fas {
+right: 4%;
+
+position: fixed;
+bottom: 8%;
+font-size: 6rem;
+color: black;
+}
 
