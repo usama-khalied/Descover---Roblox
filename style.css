@@ -78,7 +78,7 @@ header .sign-login .log {
     text-align: center;
     font-size: 13px;
     background: #fff;
-margin: 3rem 0;
+/* msssargin: 3rem 0; */
 flex-direction: column;
 width: 10%;
     /* Center slide text vertically */
@@ -106,4 +106,9 @@ width: 10%;
 .swiper-slide .icon .fas {
     margin: 0 0.5rem 0;
 color: gray;    
+}
+.swiper-button-next , .swiper-button-prev {
+    background-color: #DEE1E3;
+    color: black;
+    padding: 6rem 0;
 }
