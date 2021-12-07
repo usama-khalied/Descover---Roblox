@@ -11,7 +11,7 @@ scroll-behavior: smooth;
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: #DEE1E3;
+    background-color: #F2F4F5;
 }
 header {
     display: flex;
@@ -123,8 +123,6 @@ color: gray;
 .swiper-button-prev , .swiper-button-prev3 {
     display: none;
 }
-.container-3 {
-    margin: 10rem 0 0;
-}
+
 
 
